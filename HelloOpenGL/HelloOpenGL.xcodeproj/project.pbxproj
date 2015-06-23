@@ -26,13 +26,9 @@
 		35DF647C138C7A0900FF9459 /* CC3Kazmath.c in Sources */ = {isa = PBXBuildFile; fileRef = 35DF6475138C7A0900FF9459 /* CC3Kazmath.c */; };
 		35DF647D138C7A0900FF9459 /* CC3Math.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DF6479138C7A0900FF9459 /* CC3Math.m */; };
 		35DF647F138C869600FF9459 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DF647E138C869600FF9459 /* Icon.png */; };
-		5801D22F1B313E400098AE3A /* little_alpha_test.png in Resources */ = {isa = PBXBuildFile; fileRef = 5801D22E1B313E400098AE3A /* little_alpha_test.png */; };
-		5801D2311B3143D40098AE3A /* little_alpha_test2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5801D2301B3143D40098AE3A /* little_alpha_test2.png */; };
-		5801D2331B3145540098AE3A /* little_alpha_test3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5801D2321B3145540098AE3A /* little_alpha_test3.png */; };
-		5801D2351B3146CC0098AE3A /* little_alpha_test4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5801D2341B3146CC0098AE3A /* little_alpha_test4.png */; };
-		58B789361B2FB22A00ED5B89 /* justhole.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B789341B2FB22A00ED5B89 /* justhole.png */; };
-		58B789371B2FB22A00ED5B89 /* squarewhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B789351B2FB22A00ED5B89 /* squarewhite.png */; };
-		58B789391B2FBC9500ED5B89 /* panda_4_3_king_hole.png in Resources */ = {isa = PBXBuildFile; fileRef = 58B789381B2FBC9500ED5B89 /* panda_4_3_king_hole.png */; };
+		58CAF0EA1B3946C900A970AD /* justhole.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CAF0E81B3946C900A970AD /* justhole.png */; };
+		58CAF0EB1B3946C900A970AD /* squarewhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CAF0E91B3946C900A970AD /* squarewhite.png */; };
+		58CAF0ED1B3946EB00A970AD /* panda_4_3_king_hole.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CAF0EC1B3946EB00A970AD /* panda_4_3_king_hole.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,13 +62,9 @@
 		35DF6478138C7A0900FF9459 /* CC3Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Math.h; sourceTree = "<group>"; };
 		35DF6479138C7A0900FF9459 /* CC3Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Math.m; sourceTree = "<group>"; };
 		35DF647E138C869600FF9459 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		5801D22E1B313E400098AE3A /* little_alpha_test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = little_alpha_test.png; path = ../../../../little_alpha_test.png; sourceTree = "<group>"; };
-		5801D2301B3143D40098AE3A /* little_alpha_test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = little_alpha_test2.png; path = ../../../../little_alpha_test2.png; sourceTree = "<group>"; };
-		5801D2321B3145540098AE3A /* little_alpha_test3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = little_alpha_test3.png; path = ../../../../little_alpha_test3.png; sourceTree = "<group>"; };
-		5801D2341B3146CC0098AE3A /* little_alpha_test4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = little_alpha_test4.png; path = ../../../../little_alpha_test4.png; sourceTree = "<group>"; };
-		58B789341B2FB22A00ED5B89 /* justhole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = justhole.png; path = ../../../../justhole.png; sourceTree = "<group>"; };
-		58B789351B2FB22A00ED5B89 /* squarewhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = squarewhite.png; path = ../../../../squarewhite.png; sourceTree = "<group>"; };
-		58B789381B2FBC9500ED5B89 /* panda_4_3_king_hole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = panda_4_3_king_hole.png; path = ../../../../panda_4_3_king_hole.png; sourceTree = "<group>"; };
+		58CAF0E81B3946C900A970AD /* justhole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = justhole.png; sourceTree = "<group>"; };
+		58CAF0E91B3946C900A970AD /* squarewhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squarewhite.png; sourceTree = "<group>"; };
+		58CAF0EC1B3946EB00A970AD /* panda_4_3_king_hole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda_4_3_king_hole.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,13 +86,9 @@
 		352DD49B13D376AD005BA4CC /* Art */ = {
 			isa = PBXGroup;
 			children = (
-				5801D2341B3146CC0098AE3A /* little_alpha_test4.png */,
-				5801D2321B3145540098AE3A /* little_alpha_test3.png */,
-				5801D2301B3143D40098AE3A /* little_alpha_test2.png */,
-				5801D22E1B313E400098AE3A /* little_alpha_test.png */,
-				58B789381B2FBC9500ED5B89 /* panda_4_3_king_hole.png */,
-				58B789341B2FB22A00ED5B89 /* justhole.png */,
-				58B789351B2FB22A00ED5B89 /* squarewhite.png */,
+				58CAF0EC1B3946EB00A970AD /* panda_4_3_king_hole.png */,
+				58CAF0E81B3946C900A970AD /* justhole.png */,
+				58CAF0E91B3946C900A970AD /* squarewhite.png */,
 				352DD49C13D376AD005BA4CC /* item_powerup_fish.png */,
 				352DD49D13D376AD005BA4CC /* tile_floor.png */,
 			);
@@ -237,19 +225,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				35DF644B138C40D500FF9459 /* InfoPlist.strings in Resources */,
-				5801D2311B3143D40098AE3A /* little_alpha_test2.png in Resources */,
 				35DF6454138C40D500FF9459 /* MainWindow.xib in Resources */,
-				58B789391B2FBC9500ED5B89 /* panda_4_3_king_hole.png in Resources */,
+				58CAF0ED1B3946EB00A970AD /* panda_4_3_king_hole.png in Resources */,
 				35DF6463138C44F400FF9459 /* SimpleVertex.glsl in Resources */,
-				5801D2351B3146CC0098AE3A /* little_alpha_test4.png in Resources */,
 				35DF6464138C44F400FF9459 /* SimpleFragment.glsl in Resources */,
 				35DF647F138C869600FF9459 /* Icon.png in Resources */,
-				58B789361B2FB22A00ED5B89 /* justhole.png in Resources */,
+				58CAF0EA1B3946C900A970AD /* justhole.png in Resources */,
 				352DD49E13D376AD005BA4CC /* item_powerup_fish.png in Resources */,
-				5801D22F1B313E400098AE3A /* little_alpha_test.png in Resources */,
 				352DD49F13D376AD005BA4CC /* tile_floor.png in Resources */,
-				58B789371B2FB22A00ED5B89 /* squarewhite.png in Resources */,
-				5801D2331B3145540098AE3A /* little_alpha_test3.png in Resources */,
+				58CAF0EB1B3946C900A970AD /* squarewhite.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
