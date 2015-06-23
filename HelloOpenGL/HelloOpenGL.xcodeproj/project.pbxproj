@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		352DD49E13D376AD005BA4CC /* item_powerup_fish.png in Resources */ = {isa = PBXBuildFile; fileRef = 352DD49C13D376AD005BA4CC /* item_powerup_fish.png */; };
-		352DD49F13D376AD005BA4CC /* tile_floor.png in Resources */ = {isa = PBXBuildFile; fileRef = 352DD49D13D376AD005BA4CC /* tile_floor.png */; };
 		35DF6441138C40D500FF9459 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DF6440138C40D500FF9459 /* UIKit.framework */; };
 		35DF6443138C40D500FF9459 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DF6442138C40D500FF9459 /* Foundation.framework */; };
 		35DF6445138C40D500FF9459 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DF6444138C40D500FF9459 /* CoreGraphics.framework */; };
@@ -28,12 +26,9 @@
 		35DF647F138C869600FF9459 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 35DF647E138C869600FF9459 /* Icon.png */; };
 		58CAF0EA1B3946C900A970AD /* justhole.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CAF0E81B3946C900A970AD /* justhole.png */; };
 		58CAF0EB1B3946C900A970AD /* squarewhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CAF0E91B3946C900A970AD /* squarewhite.png */; };
-		58CAF0ED1B3946EB00A970AD /* panda_4_3_king_hole.png in Resources */ = {isa = PBXBuildFile; fileRef = 58CAF0EC1B3946EB00A970AD /* panda_4_3_king_hole.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		352DD49C13D376AD005BA4CC /* item_powerup_fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item_powerup_fish.png; sourceTree = "<group>"; };
-		352DD49D13D376AD005BA4CC /* tile_floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_floor.png; sourceTree = "<group>"; };
 		35DF643C138C40D500FF9459 /* HelloOpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloOpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35DF6440138C40D500FF9459 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		35DF6442138C40D500FF9459 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,7 +59,6 @@
 		35DF647E138C869600FF9459 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		58CAF0E81B3946C900A970AD /* justhole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = justhole.png; sourceTree = "<group>"; };
 		58CAF0E91B3946C900A970AD /* squarewhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squarewhite.png; sourceTree = "<group>"; };
-		58CAF0EC1B3946EB00A970AD /* panda_4_3_king_hole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panda_4_3_king_hole.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +80,8 @@
 		352DD49B13D376AD005BA4CC /* Art */ = {
 			isa = PBXGroup;
 			children = (
-				58CAF0EC1B3946EB00A970AD /* panda_4_3_king_hole.png */,
 				58CAF0E81B3946C900A970AD /* justhole.png */,
 				58CAF0E91B3946C900A970AD /* squarewhite.png */,
-				352DD49C13D376AD005BA4CC /* item_powerup_fish.png */,
-				352DD49D13D376AD005BA4CC /* tile_floor.png */,
 			);
 			path = Art;
 			sourceTree = "<group>";
@@ -226,13 +217,10 @@
 			files = (
 				35DF644B138C40D500FF9459 /* InfoPlist.strings in Resources */,
 				35DF6454138C40D500FF9459 /* MainWindow.xib in Resources */,
-				58CAF0ED1B3946EB00A970AD /* panda_4_3_king_hole.png in Resources */,
 				35DF6463138C44F400FF9459 /* SimpleVertex.glsl in Resources */,
 				35DF6464138C44F400FF9459 /* SimpleFragment.glsl in Resources */,
 				35DF647F138C869600FF9459 /* Icon.png in Resources */,
 				58CAF0EA1B3946C900A970AD /* justhole.png in Resources */,
-				352DD49E13D376AD005BA4CC /* item_powerup_fish.png in Resources */,
-				352DD49F13D376AD005BA4CC /* tile_floor.png in Resources */,
 				58CAF0EB1B3946C900A970AD /* squarewhite.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

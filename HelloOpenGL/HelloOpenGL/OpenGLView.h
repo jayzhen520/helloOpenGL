@@ -25,7 +25,6 @@
     
     GLuint _squareTexture;
     GLuint _holeTexture;
-    GLuint _pandaTexture;
     GLuint _texCoordSlot;
     GLuint _textureUniform;
     GLuint _textureUniform2;

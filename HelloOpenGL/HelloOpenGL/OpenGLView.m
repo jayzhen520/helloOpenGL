@@ -263,22 +263,6 @@ const GLubyte Indices2[] = {
     
     // 1
     glViewport(0, 0, self.frame.size.width, self.frame.size.height);
-        
-/*    glBindBuffer(GL_ARRAY_BUFFER, _vertexBuffer);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, _indexBuffer);
-    
-    // 2
-    glVertexAttribPointer(_positionSlot, 3, GL_FLOAT, GL_FALSE, sizeof(Vertex), 0);
-    glVertexAttribPointer(_colorSlot, 4, GL_FLOAT, GL_FALSE, sizeof(Vertex), (GLvoid*) (sizeof(float) * 3));
-    
-    glVertexAttribPointer(_texCoordSlot, 2, GL_FLOAT, GL_FALSE, sizeof(Vertex), (GLvoid*) (sizeof(float) * 7));    
-    
-    glActiveTexture(GL_TEXTURE0); 
-    glBindTexture(GL_TEXTURE_2D, _floorTexture);
-    glUniform1i(_textureUniform, 0); 
-    
-    // 3
-    //glDrawElements(GL_TRIANGLES, sizeof(Indices)/sizeof(Indices[0]), GL_UNSIGNED_BYTE, 0);*/
     
     glBindBuffer(GL_ARRAY_BUFFER, _vertexBuffer2);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, _indexBuffer2);
@@ -291,10 +275,6 @@ const GLubyte Indices2[] = {
     glActiveTexture(GL_TEXTURE1);
     glBindTexture(GL_TEXTURE_2D, _holeTexture);
     glUniform1i(_textureUniform2, 1);
-    
-    glActiveTexture(GL_TEXTURE2);
-    glBindTexture(GL_TEXTURE_2D, _pandaTexture);
-    glUniform1i(_textureUniform3, 2);
 
     glUniformMatrix4fv(_modelViewUniform, 1, 0, modelView.glMatrix);
 
@@ -366,7 +346,6 @@ const GLubyte Indices2[] = {
         
         _squareTexture = [self setupTexture:@"squarewhite.png"];
         _holeTexture = [self setupTexture:@"justhole.png"];
-        _pandaTexture = [self setupTexture:@"panda_4_3_king_hole.png"];
     }
     return self;
 }
